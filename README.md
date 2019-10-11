@@ -17,3 +17,25 @@ Run the server
 Then open the api explorer at:
 
     localhost:3000/explorer
+
+# Example output
+
+Each image contains a `container` and a `filename` property. When you call the `GET api/images` method the images will be returned containing also a full url:
+
+    // GET images
+    [
+      {
+        "container": "container1",
+        "filename": "f1.txt",
+        "id": 1,
+        "productId": 1,
+        "url": "http://localhost:3000/api/containers/container1/download/f1.txt"
+      },
+      {
+        "container": "container1",
+        "filename": "f1.txt",
+        "id": 2,
+        "productId": 1,
+        "url": "http://localhost:3000/api/containers/container1/download/f1.txt"
+      }
+    ]
