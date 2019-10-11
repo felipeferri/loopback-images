@@ -1,0 +1,23 @@
+{
+  "name": "loopback-example-storage",
+  "version": "0.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint .",
+    "start": "node server/server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "loopback": "^3.0.0",
+    "cors": "^2.8.1",
+    "loopback-boot": "^2.0.0",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-component-storage": "^3.0.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^1.1.0"
+  },
+  "license": "Artistic-2.0",
+  "author": "IBM Corp."
+}

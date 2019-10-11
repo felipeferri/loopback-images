@@ -1,0 +1,29 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 3,
+    "Image": 6
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"Carteira\",\"id\":1}",
+      "2": "{\"name\":\"HD Externo\",\"id\":2}"
+    },
+    "Image": {
+      "1": "{\"container\":\"container1\",\"filename\":\"f1.txt\",\"productId\":1,\"id\":1}",
+      "2": "{\"container\":\"container1\",\"filename\":\"f1.txt\",\"productId\":1,\"id\":2}",
+      "3": "{\"container\":\"container1\",\"filename\":\"f1.txt\",\"productId\":1,\"id\":3}",
+      "4": "{\"container\":\"container1\",\"filename\":\"f1.txt\",\"productId\":2,\"id\":4}",
+      "5": "{\"container\":\"container1\",\"filename\":\"f1.txt\",\"productId\":2,\"id\":5}"
+    }
+  }
+}
